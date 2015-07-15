@@ -45,7 +45,7 @@
 						<td><div align="center">${notificacion.aviso.ubicacion.provincia} </td></div>
 						<td><div align="center">${notificacion.aviso.fecha} </td>
 						<td><div align="center">${notificacion.aviso.tipoAviso} </td>
-						<td><a href="${createLink(action:'verAvisoEncontrado', id:notificacion.id, controller:'publicacion')}" class="btn btn-primary btn-xs"> Ver más </a></td>
+						<td><a href="${createLink(action:'verAvisoEncontrado', id:notificacion.aviso.id, controller:'publicacion')}" class="btn btn-primary btn-xs"> Ver más </a></td>
 					</tr>
 				</g:each>
 			</table>
